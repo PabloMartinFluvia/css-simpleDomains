@@ -1,0 +1,35 @@
+/* link style */
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* first element inside 'container' style */
+
+.container > *:first-child {
+    font-size: 150%;
+}
+
+
+.container > *:first-child::first-line {
+    color: red;
+}
+
+/* table's rows style */
+
+table {
+    border-collapse: collapse;    
+}
+
+table tr:nth-child(even) {
+    color: white;
+    background-color: #333;   
+}

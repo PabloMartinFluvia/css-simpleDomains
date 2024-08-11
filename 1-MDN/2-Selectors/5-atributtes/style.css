@@ -1,0 +1,24 @@
+/* estilo en requisitos */
+a {
+    border: 5px solid grey; 
+}
+
+
+/* estilo que debería estar en requisitos, para que se vea bien */
+li {
+    margin: 20px;    
+}
+
+/* estilo durante task */
+a[title] {
+     border-color: pink; 
+}
+
+a[href *= "contact"] {
+    border-color: orange; 
+}
+
+a[href ^= "https"] {
+    border-color: green; 
+}
+     
